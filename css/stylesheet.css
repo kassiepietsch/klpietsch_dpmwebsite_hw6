@@ -63,3 +63,22 @@ section {
     padding: 20px; /* Padding inside the border */
     border-radius: 10px; /* Rounded corners */
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, h3 {
+    border: 1px solid #333;
+}
+
+h3, li {
+    padding: 10px;
+    text-align: left;
+}
+
+h3 {
+    background-color: #444;
+    color: #fff;
+}
