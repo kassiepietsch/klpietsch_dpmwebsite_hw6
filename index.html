@@ -25,7 +25,10 @@
         <section>
             <h2>About Me</h2>
             <p>I am a Senior at the University of Iowa. I am majoring in Business Analytics, Finance and Risk Management & Insurance. I am moving to Denver Colorado when I graduate to work as a Risk Management Consultant. I love spending time with my family and friends. I love living an active lifestyle and participating in outdoor activites. I love watching sports and especially cheering on the Hawkeyes!</p>
-            <img src="/Desktop/Boston.JPG" alt="Kassie Pietsch" width="300">
+            <img src="{{ url_for('static', filename='images/Boston.jpeg') }}"
+            class="img-fluid"
+            alt="Picture in Boston"/>
+
         </section>
 
         <section>
@@ -44,8 +47,9 @@
                 <li>Fast & Furious</li>
             </ul>
             <h3>Other Favorites</h3>
-            <p>Hawkeye football</p>
-            <img src="/Desktop/Friends.JPG" alt="Friends" width="300">
+            <li>Hawkeye football</li>
+            <li>Hanging out with friends</li>
+            <img src="../Friends.JPEG" alt="Friends" width="300">
         </section>
     </main>
 
